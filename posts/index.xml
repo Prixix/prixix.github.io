@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Paul Artjomow</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Paul Artjomow</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@prixix.com (Prixix)</managingEditor>
+    <webMaster>me@prixix.com (Prixix)</webMaster>
+    <copyright>2021 Paul Artjomow All rights reserved</copyright>
+    <lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Dastebin?</title>
+      <link>/2022/02/14/dastebin/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      <author>me@prixix.com (Prixix)</author>
+      <guid>/2022/02/14/dastebin/</guid>
+      <description>Description Dastebin is a service that allows you to paste code snippets in a simple and easy way. This is done by using the IPFS network, that will allow you to store your code snippets in a decentralized way.
+Features  Share your code snippets with others Get your code snippets back Show your code snippets raw  Using the Rest API You can post a code snippet with the following command:</description>
+    </item>
+    
+  </channel>
+</rss>

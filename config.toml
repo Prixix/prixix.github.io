@@ -1,13 +1,15 @@
-baseURL = "/hugo-theme-serial-programmer/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Serial Programmer"
+title = "Paul Artjomow"
 rssLimit = 20
-copyright = "2021 Janne Kemppainen All rights reserved"
 minify = false
+copyright = "2021 Paul Artjomow All rights reserved"
+
+staticDir = ['static']
 
 [Author]
-  name = "sharadcodes"
-  email = "me@example.com"
+  name = "Prixix"
+  email = "me@prixix.com"
 
 [permalinks]
   posts = "/:year/:month/:day/:filename"

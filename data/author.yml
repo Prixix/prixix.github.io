@@ -1,23 +1,24 @@
-name: Sharad Raj
-dp: https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4
+name: Paul Artjomow
+dp: https://avatars.githubusercontent.com/u/24830552?v=4
 description: "
   <p>
-    Developed by Sharad Raj who lives in India building useful things for the world.
+    Hello, I'm Paul Artjomow. I'm a software engineer specializing in backend-end development, living in Germany.
   </p>
+
   <br/>
+
   <p>
-    You should follow him on <a href='https://github.com/sharadcodes' target='_blank'>Github</a>
-  </P>
+    I'm a backend developer with a passion for building scalable, maintainable and secure web applications.
+    My favorite programming languages are <a href='https://en.wikipedia.org/wiki/Go_(programming_language)' target='_blank'>GoLang</a>, <a href='https://en.wikipedia.org/wiki/Java_(programming_language)' target='_blank'>Java</a>, and <a href='https://en.wikipedia.org/wiki/JavaScript' target='_blank'>JavaScript</a>.
+  </p>
 "
-email: dev_sharad@outlook.com
+email: me@prixix.com
 contact:
-  - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
   - title: github
-    url: https://github.com/sharadcodes
+    url: https://github.com/Prixix
   - title: twitter
-    url: https://twitter.com/sharadcodes
+    url: https://twitter.com/xPrixix
   - title: dev
-    url: https://dev.to/sharadcodes
+    url: https://dev.to/prixix
   - title: email
-    url: mailto:me@example.com
+    url: mailto:me@prixix.com

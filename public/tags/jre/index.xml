@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jre on Paul Artjomow</title>
+    <link>/tags/jre/</link>
+    <description>Recent content in jre on Paul Artjomow</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@prixix.com (Prixix)</managingEditor>
+    <webMaster>me@prixix.com (Prixix)</webMaster>
+    <copyright>2021 Paul Artjomow All rights reserved</copyright>
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/jre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install Coretto JRE 17</title>
+      <link>/2022/02/15/installingcoretto17/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <author>me@prixix.com (Prixix)</author>
+      <guid>/2022/02/15/installingcoretto17/</guid>
+      <description>What is Amazon Coretto? Amazon Coretto is a Java runtime environment that is used to run Java applications. It&amp;rsquo;s built on top of OpenJDK and is available for both Linux and Windows for free. Corretto is Open source, you can get it from here.
+How to install Coretto JRE 17 on Debian-based Linux First you need to add the repository to your system:
+wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - sudo add-apt-repository &amp;#39;deb https://apt.</description>
+    </item>
+    
+  </channel>
+</rss>

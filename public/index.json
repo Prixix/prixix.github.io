@@ -1,0 +1,31 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Paul Artjomow",
+  "home_page_url": "/",
+  "feed_url": "/",
+
+
+  "items": [
+  
+  
+    {
+      "id": "/2022/02/15/installingcoretto17/",
+      "title": "How to install Coretto JRE 17",
+      "content_text": "What is Amazon Coretto? Amazon Coretto is a Java runtime environment that is used to run Java applications. It\u0026rsquo;s built on top of OpenJDK and is available for both Linux and Windows for free. Corretto is Open source, you can get it from here.\nHow to install Coretto JRE 17 on Debian-based Linux First you need to add the repository to your system:\nwget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - sudo add-apt-repository \u0026#39;deb https://apt.",
+      "url": "/2022/02/15/installingcoretto17/",
+      "date_published": "2022-02-15 00:00:00 +0000 UTC",
+      "tags": ["java,jre"]
+    }
+  
+  , 
+    {
+      "id": "/2022/02/14/dastebin/",
+      "title": "What is Dastebin?",
+      "content_text": "Description Dastebin is a service that allows you to paste code snippets in a simple and easy way. This is done by using the IPFS network, that will allow you to store your code snippets in a decentralized way.\nFeatures  Share your code snippets with others Get your code snippets back Show your code snippets raw  Using the Rest API You can post a code snippet with the following command:",
+      "url": "/2022/02/14/dastebin/",
+      "date_published": "2022-02-14 00:00:00 +0000 UTC",
+      "tags": ["nodejs,javascript"]
+    }
+  
+  ]
+}

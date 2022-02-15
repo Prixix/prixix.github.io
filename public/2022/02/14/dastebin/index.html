@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What is Dastebin? | Paul Artjomow</title>
+  <link rel="stylesheet" href="/assets/css/post.css" />
+  <script defer src="/assets/js/lbox.js"></script>
+  
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="/">Paul Artjomow</a>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">What is Dastebin?</h2>
+          <small class="date">Mon Feb 14, 2022</small>
+          <div class="tags">
+            
+            <a href="/tags/nodejs" class="tag">nodejs</a>
+            
+            <a href="/tags/javascript" class="tag">javascript</a>
+            
+          </div>
+        </div>
+        <div class="content"><h2 id="description">Description</h2>
+<p><a href="https://dastebin.prixix.com">Dastebin</a> is a service that allows you to paste code snippets in a simple and
+easy way. This is done by using the IPFS network, that will allow you to store your code snippets in a decentralized way.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Share your code snippets with others</li>
+<li><input checked="" disabled="" type="checkbox"> Get your code snippets back</li>
+<li><input checked="" disabled="" type="checkbox"> Show your code snippets raw</li>
+</ul>
+<h2 id="using-the-rest-api">Using the Rest API</h2>
+<p>You can post a code snippet with the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -X POST -H <span style="color:#e6db74">&#34;Content-Type: application/json&#34;</span> -d <span style="color:#e6db74">&#39;{&#34;code&#34;: &#34;console.log(\&#34;Hello World!\&#34;)&#34;}&#39;</span> https://dastebin.prixix.com/new
+</code></pre></div><h2 id="what-is-ipfs">What is IPFS?</h2>
+<p>IPFS is a peer-to-peer hypermedia protocol that enables the sharing of content in the Internet. It is a protocol that allows you to store and retrieve data in a decentralized way.</p>
+<h2 id="get-the-source">Get the source</h2>
+<p>Source code can be found <a href="https://github.com/Prixix/DasteBin">here</a>.</p>
+</div>
+      </section>
+      <footer>
+  <p>
+    &copy; 2022 Paul Artjomow |
+    <a href="/legal.html" style="text-decoration: none; color: #a9abb3"
+      >Legal</a
+    >
+  </p>
+</footer>
+
+    </main>
+  </body>
+</html>

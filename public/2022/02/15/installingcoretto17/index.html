@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to install Coretto JRE 17 | Paul Artjomow</title>
+  <link rel="stylesheet" href="/assets/css/post.css" />
+  <script defer src="/assets/js/lbox.js"></script>
+  
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="/">Paul Artjomow</a>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">How to install Coretto JRE 17</h2>
+          <small class="date">Tue Feb 15, 2022</small>
+          <div class="tags">
+            
+            <a href="/tags/java" class="tag">java</a>
+            
+            <a href="/tags/jre" class="tag">jre</a>
+            
+          </div>
+        </div>
+        <div class="content"><h2 id="what-is-amazon-coretto">What is Amazon Coretto?</h2>
+<p>Amazon Coretto is a Java runtime environment that is used to run Java applications. It&rsquo;s built on top of OpenJDK and is available for both Linux and Windows for free. Corretto is Open source, you can get it from <a href="https://github.com/corretto">here</a>.</p>
+<h2 id="how-to-install-coretto-jre-17-on-debian-based-linux">How to install Coretto JRE 17 on Debian-based Linux</h2>
+<p>First you need to add the repository to your system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
+sudo add-apt-repository <span style="color:#e6db74">&#39;deb https://apt.corretto.aws stable main&#39;</span>
+</code></pre></div><p>Then you just need to update the package list and install the Coretto:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get update <span style="color:#f92672">&amp;&amp;</span> sudo apt-get install -y java-17-amazon-corretto-jdk
+</code></pre></div><p>Now you can run the following command to check if the installation was successful:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">java -version
+</code></pre></div><p>If you see something like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">openjdk version <span style="color:#e6db74">&#34;17;&#34;</span> 2021-09-14 LTS
+OpenJDK Runtime Environment Corretto-17;.0.0.35.1 <span style="color:#f92672">(</span>build 17;+35-LTS<span style="color:#f92672">)</span>
+OpenJDK 64-Bit Server VM Corretto-17;.0.0.35.1 <span style="color:#f92672">(</span>build 17;+35-LTS, mixed mode, sharing<span style="color:#f92672">)</span>
+</code></pre></div><p>Then you are good to go!</p>
+<h2 id="how-to-install-coretto-jre-17-on-windows">How to install Coretto JRE 17 on Windows</h2>
+<p>To install Coretto JRE 17 on Windows you need to download the installer and run it. You can find the installer <a href="https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html">here</a>.</p>
+<h2 id="full-documentation">Full Documentation</h2>
+<p>For the full documentation you can visit <a href="https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/">here</a>.</p>
+</div>
+      </section>
+      <footer>
+  <p>
+    &copy; 2022 Paul Artjomow |
+    <a href="/legal.html" style="text-decoration: none; color: #a9abb3"
+      >Legal</a
+    >
+  </p>
+</footer>
+
+    </main>
+  </body>
+</html>
